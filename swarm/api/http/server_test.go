@@ -37,17 +37,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/swarm/storage/feed/lookup"
+	"github.com/puhproject/puhoin/swarm/storage/feed/lookup"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/swarm/api"
-	swarm "github.com/ethereum/go-ethereum/swarm/api/client"
-	"github.com/ethereum/go-ethereum/swarm/storage"
-	"github.com/ethereum/go-ethereum/swarm/storage/feed"
-	"github.com/ethereum/go-ethereum/swarm/testutil"
+	"github.com/puhproject/puhoin/common"
+	"github.com/puhproject/puhoin/core/types"
+	"github.com/puhproject/puhoin/crypto"
+	"github.com/puhproject/puhoin/log"
+	"github.com/puhproject/puhoin/swarm/api"
+	swarm "github.com/puhproject/puhoin/swarm/api/client"
+	"github.com/puhproject/puhoin/swarm/storage"
+	"github.com/puhproject/puhoin/swarm/storage/feed"
+	"github.com/puhproject/puhoin/swarm/testutil"
 )
 
 func init() {

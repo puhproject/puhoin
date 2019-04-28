@@ -32,14 +32,14 @@ import (
 	"sync"
 	"time"
 
-	ethereum "github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/secp256k1"
-	"github.com/ethereum/go-ethereum/log"
 	pcsc "github.com/gballet/go-libpcsclite"
+	ethereum "github.com/puhproject/puhoin"
+	"github.com/puhproject/puhoin/accounts"
+	"github.com/puhproject/puhoin/common"
+	"github.com/puhproject/puhoin/core/types"
+	"github.com/puhproject/puhoin/crypto"
+	"github.com/puhproject/puhoin/crypto/secp256k1"
+	"github.com/puhproject/puhoin/log"
 	"github.com/status-im/keycard-go/derivationpath"
 )
 

@@ -21,10 +21,10 @@ import (
 	"encoding/json"
 	"hash"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/swarm/storage"
-	"github.com/ethereum/go-ethereum/swarm/storage/feed/lookup"
+	"github.com/puhproject/puhoin/common"
+	"github.com/puhproject/puhoin/common/hexutil"
+	"github.com/puhproject/puhoin/swarm/storage"
+	"github.com/puhproject/puhoin/swarm/storage/feed/lookup"
 )
 
 // Request represents a request to sign or signed feed update message

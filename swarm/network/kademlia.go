@@ -24,10 +24,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/swarm/log"
-	"github.com/ethereum/go-ethereum/swarm/pot"
-	sv "github.com/ethereum/go-ethereum/swarm/version"
+	"github.com/puhproject/puhoin/common"
+	"github.com/puhproject/puhoin/swarm/log"
+	"github.com/puhproject/puhoin/swarm/pot"
+	sv "github.com/puhproject/puhoin/swarm/version"
 )
 
 /*

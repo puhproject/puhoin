@@ -22,10 +22,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p"
-	p2ptest "github.com/ethereum/go-ethereum/p2p/testing"
-	"github.com/ethereum/go-ethereum/swarm/state"
+	"github.com/puhproject/puhoin/crypto"
+	"github.com/puhproject/puhoin/p2p"
+	p2ptest "github.com/puhproject/puhoin/p2p/testing"
+	"github.com/puhproject/puhoin/swarm/state"
 )
 
 func newHiveTester(params *HiveParams, n int, store state.Store) (*bzzTester, *Hive, error) {

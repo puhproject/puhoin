@@ -24,11 +24,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/swarm/log"
-	"github.com/ethereum/go-ethereum/swarm/spancontext"
 	"github.com/opentracing/opentracing-go"
 	olog "github.com/opentracing/opentracing-go/log"
+	"github.com/puhproject/puhoin/p2p/enode"
+	"github.com/puhproject/puhoin/swarm/log"
+	"github.com/puhproject/puhoin/swarm/spancontext"
 	"github.com/syndtr/goleveldb/leveldb"
 
 	lru "github.com/hashicorp/golang-lru"

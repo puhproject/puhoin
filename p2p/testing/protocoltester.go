@@ -32,14 +32,14 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/simulations"
-	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/puhproject/puhoin/log"
+	"github.com/puhproject/puhoin/node"
+	"github.com/puhproject/puhoin/p2p"
+	"github.com/puhproject/puhoin/p2p/enode"
+	"github.com/puhproject/puhoin/p2p/simulations"
+	"github.com/puhproject/puhoin/p2p/simulations/adapters"
+	"github.com/puhproject/puhoin/rlp"
+	"github.com/puhproject/puhoin/rpc"
 )
 
 // ProtocolTester is the tester environment used for unit testing protocol

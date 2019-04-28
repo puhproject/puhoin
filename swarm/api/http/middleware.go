@@ -7,12 +7,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/swarm/api"
-	"github.com/ethereum/go-ethereum/swarm/log"
-	"github.com/ethereum/go-ethereum/swarm/sctx"
-	"github.com/ethereum/go-ethereum/swarm/spancontext"
 	"github.com/pborman/uuid"
+	"github.com/puhproject/puhoin/metrics"
+	"github.com/puhproject/puhoin/swarm/api"
+	"github.com/puhproject/puhoin/swarm/log"
+	"github.com/puhproject/puhoin/swarm/sctx"
+	"github.com/puhproject/puhoin/swarm/spancontext"
 )
 
 // Adapt chains h (main request handler) main handler to adapters (middleware handlers)

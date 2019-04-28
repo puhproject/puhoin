@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/puhproject/puhoin/common"
 )
 
 // Tests for the decoding of the example ENS

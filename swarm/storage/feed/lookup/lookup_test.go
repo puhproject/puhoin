@@ -22,8 +22,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/swarm/log"
-	"github.com/ethereum/go-ethereum/swarm/storage/feed/lookup"
+	"github.com/puhproject/puhoin/swarm/log"
+	"github.com/puhproject/puhoin/swarm/storage/feed/lookup"
 )
 
 type Data struct {

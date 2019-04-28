@@ -26,13 +26,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/puhproject/puhoin/common"
+	"github.com/puhproject/puhoin/consensus/ethash"
+	"github.com/puhproject/puhoin/core"
+	"github.com/puhproject/puhoin/eth"
+	"github.com/puhproject/puhoin/internal/jsre"
+	"github.com/puhproject/puhoin/miner"
+	"github.com/puhproject/puhoin/node"
 )
 
 const (

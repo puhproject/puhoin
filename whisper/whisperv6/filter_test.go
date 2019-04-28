@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/puhproject/puhoin/common"
+	"github.com/puhproject/puhoin/crypto"
 )
 
 var seed int64

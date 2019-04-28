@@ -22,11 +22,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/rules/deps"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/puhproject/puhoin/internal/ethapi"
+	"github.com/puhproject/puhoin/log"
+	"github.com/puhproject/puhoin/signer/core"
+	"github.com/puhproject/puhoin/signer/rules/deps"
+	"github.com/puhproject/puhoin/signer/storage"
 	"github.com/robertkrimen/otto"
 )
 

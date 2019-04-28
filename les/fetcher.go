@@ -21,13 +21,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/puhproject/puhoin/common"
+	"github.com/puhproject/puhoin/common/mclock"
+	"github.com/puhproject/puhoin/consensus"
+	"github.com/puhproject/puhoin/core/rawdb"
+	"github.com/puhproject/puhoin/core/types"
+	"github.com/puhproject/puhoin/light"
+	"github.com/puhproject/puhoin/log"
 )
 
 const (

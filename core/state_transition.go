@@ -21,10 +21,10 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/puhproject/puhoin/common"
+	"github.com/puhproject/puhoin/core/vm"
+	"github.com/puhproject/puhoin/log"
+	"github.com/puhproject/puhoin/params"
 )
 
 var (

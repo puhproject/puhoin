@@ -6,11 +6,11 @@ import (
 
 	"net"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/puhproject/puhoin/common"
+	"github.com/puhproject/puhoin/core/types"
+	"github.com/puhproject/puhoin/crypto"
+	"github.com/puhproject/puhoin/p2p"
+	"github.com/puhproject/puhoin/p2p/enode"
 )
 
 func TestFetcherULCPeerSelector(t *testing.T) {

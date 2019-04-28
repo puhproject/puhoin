@@ -19,10 +19,10 @@ package core
 import (
 	"context"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/puhproject/puhoin/common"
+	"github.com/puhproject/puhoin/common/hexutil"
+	"github.com/puhproject/puhoin/internal/ethapi"
+	"github.com/puhproject/puhoin/log"
 )
 
 type AuditLogger struct {

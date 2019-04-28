@@ -21,10 +21,10 @@ import (
 	"io"
 	"os"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/puhproject/puhoin/common"
+	"github.com/puhproject/puhoin/core/types"
+	"github.com/puhproject/puhoin/log"
+	"github.com/puhproject/puhoin/rlp"
 )
 
 // errNoActiveJournal is returned if a transaction is attempted to be inserted

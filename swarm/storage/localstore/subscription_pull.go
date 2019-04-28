@@ -23,9 +23,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/swarm/chunk"
-	"github.com/ethereum/go-ethereum/swarm/shed"
+	"github.com/puhproject/puhoin/log"
+	"github.com/puhproject/puhoin/swarm/chunk"
+	"github.com/puhproject/puhoin/swarm/shed"
 	"github.com/syndtr/goleveldb/leveldb"
 )
 

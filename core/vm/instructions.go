@@ -20,10 +20,10 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/puhproject/puhoin/common"
+	"github.com/puhproject/puhoin/common/math"
+	"github.com/puhproject/puhoin/core/types"
+	"github.com/puhproject/puhoin/params"
 	"golang.org/x/crypto/sha3"
 )
 

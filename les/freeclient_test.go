@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/core/rawdb"
+	"github.com/puhproject/puhoin/common/mclock"
+	"github.com/puhproject/puhoin/core/rawdb"
 )
 
 func TestFreeClientPoolL10C100(t *testing.T) {

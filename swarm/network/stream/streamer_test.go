@@ -28,17 +28,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/swarm/testutil"
+	"github.com/puhproject/puhoin/swarm/testutil"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
-	p2ptest "github.com/ethereum/go-ethereum/p2p/testing"
-	"github.com/ethereum/go-ethereum/swarm/network"
-	"github.com/ethereum/go-ethereum/swarm/network/simulation"
-	"github.com/ethereum/go-ethereum/swarm/state"
+	"github.com/puhproject/puhoin/common"
+	"github.com/puhproject/puhoin/log"
+	"github.com/puhproject/puhoin/node"
+	"github.com/puhproject/puhoin/p2p/enode"
+	"github.com/puhproject/puhoin/p2p/simulations/adapters"
+	p2ptest "github.com/puhproject/puhoin/p2p/testing"
+	"github.com/puhproject/puhoin/swarm/network"
+	"github.com/puhproject/puhoin/swarm/network/simulation"
+	"github.com/puhproject/puhoin/swarm/state"
 	"golang.org/x/crypto/sha3"
 )
 

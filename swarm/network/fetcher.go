@@ -22,11 +22,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/swarm/storage"
-	"github.com/ethereum/go-ethereum/swarm/tracing"
 	olog "github.com/opentracing/opentracing-go/log"
+	"github.com/puhproject/puhoin/log"
+	"github.com/puhproject/puhoin/p2p/enode"
+	"github.com/puhproject/puhoin/swarm/storage"
+	"github.com/puhproject/puhoin/swarm/tracing"
 )
 
 const (

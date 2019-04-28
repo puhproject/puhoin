@@ -24,13 +24,13 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/gasprice"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/puhproject/puhoin/common"
+	"github.com/puhproject/puhoin/consensus/ethash"
+	"github.com/puhproject/puhoin/core"
+	"github.com/puhproject/puhoin/eth/downloader"
+	"github.com/puhproject/puhoin/eth/gasprice"
+	"github.com/puhproject/puhoin/miner"
+	"github.com/puhproject/puhoin/params"
 )
 
 // DefaultConfig contains default settings for use on the Ethereum main net.

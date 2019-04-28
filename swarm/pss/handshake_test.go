@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/swarm/log"
+	"github.com/puhproject/puhoin/swarm/log"
 )
 
 // asymmetrical key exchange between two directly connected peers

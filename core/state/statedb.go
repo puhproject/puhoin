@@ -24,13 +24,13 @@ import (
 	"sort"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/puhproject/puhoin/common"
+	"github.com/puhproject/puhoin/core/types"
+	"github.com/puhproject/puhoin/crypto"
+	"github.com/puhproject/puhoin/log"
+	"github.com/puhproject/puhoin/metrics"
+	"github.com/puhproject/puhoin/rlp"
+	"github.com/puhproject/puhoin/trie"
 )
 
 type revision struct {
@@ -561,7 +561,7 @@ func (self *StateDB) Copy() *StateDB {
 	}
 	// Copy the dirty states, logs, and preimages
 	for addr := range self.journal.dirties {
-		// As documented [here](https://github.com/ethereum/go-ethereum/pull/16485#issuecomment-380438527),
+		// As documented [here](https://github.com/puhproject/puhoin/pull/16485#issuecomment-380438527),
 		// and in the Finalise-method, there is a case where an object is in the journal but not
 		// in the stateObjects: OOG after touch on ripeMD prior to Byzantium. Thus, we need to check for
 		// nil

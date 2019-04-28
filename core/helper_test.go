@@ -19,10 +19,10 @@ package core
 import (
 	"container/list"
 
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
+	"github.com/puhproject/puhoin/core/rawdb"
+	"github.com/puhproject/puhoin/core/types"
+	"github.com/puhproject/puhoin/ethdb"
+	"github.com/puhproject/puhoin/event"
 )
 
 // Implement our EthTest Manager

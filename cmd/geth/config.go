@@ -27,14 +27,14 @@ import (
 
 	cli "gopkg.in/urfave/cli.v1"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/dashboard"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/graphql"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/params"
-	whisper "github.com/ethereum/go-ethereum/whisper/whisperv6"
 	"github.com/naoina/toml"
+	"github.com/puhproject/puhoin/cmd/utils"
+	"github.com/puhproject/puhoin/dashboard"
+	"github.com/puhproject/puhoin/eth"
+	"github.com/puhproject/puhoin/graphql"
+	"github.com/puhproject/puhoin/node"
+	"github.com/puhproject/puhoin/params"
+	whisper "github.com/puhproject/puhoin/whisper/whisperv6"
 )
 
 var (

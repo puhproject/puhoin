@@ -23,16 +23,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p/protocols"
-	"github.com/ethereum/go-ethereum/swarm/log"
-	pq "github.com/ethereum/go-ethereum/swarm/network/priorityqueue"
-	"github.com/ethereum/go-ethereum/swarm/network/stream/intervals"
-	"github.com/ethereum/go-ethereum/swarm/spancontext"
-	"github.com/ethereum/go-ethereum/swarm/state"
-	"github.com/ethereum/go-ethereum/swarm/storage"
-	"github.com/ethereum/go-ethereum/swarm/tracing"
 	opentracing "github.com/opentracing/opentracing-go"
+	"github.com/puhproject/puhoin/metrics"
+	"github.com/puhproject/puhoin/p2p/protocols"
+	"github.com/puhproject/puhoin/swarm/log"
+	pq "github.com/puhproject/puhoin/swarm/network/priorityqueue"
+	"github.com/puhproject/puhoin/swarm/network/stream/intervals"
+	"github.com/puhproject/puhoin/swarm/spancontext"
+	"github.com/puhproject/puhoin/swarm/state"
+	"github.com/puhproject/puhoin/swarm/storage"
+	"github.com/puhproject/puhoin/swarm/tracing"
 )
 
 type notFoundError struct {

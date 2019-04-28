@@ -20,8 +20,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
+	"github.com/puhproject/puhoin/node"
+	"github.com/puhproject/puhoin/p2p/simulations/adapters"
 )
 
 // TestServiceBucket tests all bucket functionality using subtests.

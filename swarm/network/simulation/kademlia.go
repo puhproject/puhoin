@@ -22,11 +22,11 @@ import (
 	"encoding/hex"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/simulations"
-	"github.com/ethereum/go-ethereum/swarm/network"
+	"github.com/puhproject/puhoin/common"
+	"github.com/puhproject/puhoin/log"
+	"github.com/puhproject/puhoin/p2p/enode"
+	"github.com/puhproject/puhoin/p2p/simulations"
+	"github.com/puhproject/puhoin/swarm/network"
 )
 
 // BucketKeyKademlia is the key to be used for storing the kademlia

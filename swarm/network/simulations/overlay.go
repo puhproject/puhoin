@@ -27,14 +27,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/simulations"
-	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
-	"github.com/ethereum/go-ethereum/swarm/network"
-	"github.com/ethereum/go-ethereum/swarm/state"
 	colorable "github.com/mattn/go-colorable"
+	"github.com/puhproject/puhoin/log"
+	"github.com/puhproject/puhoin/node"
+	"github.com/puhproject/puhoin/p2p/enode"
+	"github.com/puhproject/puhoin/p2p/simulations"
+	"github.com/puhproject/puhoin/p2p/simulations/adapters"
+	"github.com/puhproject/puhoin/swarm/network"
+	"github.com/puhproject/puhoin/swarm/state"
 )
 
 var (

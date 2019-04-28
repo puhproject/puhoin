@@ -30,10 +30,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
-	swarmapi "github.com/ethereum/go-ethereum/swarm/api/client"
-	"github.com/ethereum/go-ethereum/swarm/testutil"
 	"github.com/mattn/go-colorable"
+	"github.com/puhproject/puhoin/log"
+	swarmapi "github.com/puhproject/puhoin/swarm/api/client"
+	"github.com/puhproject/puhoin/swarm/testutil"
 )
 
 func init() {

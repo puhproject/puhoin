@@ -36,7 +36,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/puhproject/puhoin/common"
 )
 
 const (

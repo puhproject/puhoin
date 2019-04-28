@@ -21,9 +21,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/puhproject/puhoin/core/state"
+	"github.com/puhproject/puhoin/core/types"
+	"github.com/puhproject/puhoin/params"
 )
 
 var (

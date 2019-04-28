@@ -29,10 +29,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/pborman/uuid"
+	"github.com/puhproject/puhoin/accounts"
+	"github.com/puhproject/puhoin/common"
+	"github.com/puhproject/puhoin/crypto"
 )
 
 const (

@@ -25,12 +25,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/protocols"
-	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
-	"github.com/ethereum/go-ethereum/swarm/state"
 	colorable "github.com/mattn/go-colorable"
+	"github.com/puhproject/puhoin/log"
+	"github.com/puhproject/puhoin/p2p"
+	"github.com/puhproject/puhoin/p2p/protocols"
+	"github.com/puhproject/puhoin/p2p/simulations/adapters"
+	"github.com/puhproject/puhoin/swarm/state"
 )
 
 var (

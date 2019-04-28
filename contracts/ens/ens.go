@@ -25,12 +25,12 @@ import (
 	"encoding/binary"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/contracts/ens/contract"
-	"github.com/ethereum/go-ethereum/contracts/ens/fallback_contract"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/puhproject/puhoin/accounts/abi/bind"
+	"github.com/puhproject/puhoin/common"
+	"github.com/puhproject/puhoin/contracts/ens/contract"
+	"github.com/puhproject/puhoin/contracts/ens/fallback_contract"
+	"github.com/puhproject/puhoin/core/types"
+	"github.com/puhproject/puhoin/crypto"
 )
 
 var (

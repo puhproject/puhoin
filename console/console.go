@@ -28,11 +28,11 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/internal/web3ext"
-	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/mattn/go-colorable"
 	"github.com/peterh/liner"
+	"github.com/puhproject/puhoin/internal/jsre"
+	"github.com/puhproject/puhoin/internal/web3ext"
+	"github.com/puhproject/puhoin/rpc"
 	"github.com/robertkrimen/otto"
 )
 
